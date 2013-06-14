@@ -33,7 +33,23 @@
     </plugins>
   </build>
   <dependencies>
+<dependency>
+	<groupId>com.vaadin</groupId>
+	<artifactId>vaadin-server</artifactId>
+	<version>7.0.7</version>
+</dependency>
 
+<dependency>
+	<groupId>com.vaadin</groupId>
+	<artifactId>vaadin-client</artifactId>
+	<version>7.0.7</version>
+</dependency>
+<dependency>
+	<groupId>com.vaadin</groupId>
+	<artifactId>vaadin-theme-compiler</artifactId>
+	<version>7.0.7</version>
+</dependency>
+            
   <dependency>
   	<groupId>com.vaadin</groupId>
   	<artifactId>vaadin</artifactId>
