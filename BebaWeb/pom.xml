@@ -33,27 +33,42 @@
     </plugins>
   </build>
   <dependencies>
-<dependency>
-	<groupId>com.vaadin</groupId>
-	<artifactId>vaadin-server</artifactId>
-	<version>7.0.7</version>
-</dependency>
-
-<dependency>
-	<groupId>com.vaadin</groupId>
-	<artifactId>vaadin-client</artifactId>
-	<version>7.0.7</version>
-</dependency>
-<dependency>
-	<groupId>com.vaadin</groupId>
-	<artifactId>vaadin-theme-compiler</artifactId>
-	<version>7.0.7</version>
-</dependency>
-            
-  <dependency>
-  	<groupId>com.vaadin</groupId>
-  	<artifactId>vaadin</artifactId>
-  	<version>7.0.0.alpha3</version>
-  </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-server</artifactId>
+      <version>7.0.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-client</artifactId>
+      <version>7.0.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-theme-compiler</artifactId>
+      <version>7.0.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin</artifactId>
+      <version>7.0.0.alpha3</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>persistence-api</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-api-1.0-sdk</artifactId>
+      <version>1.8.1</version>
+    </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>vaadin-addons</id>
+      <url>http://maven.vaadin.com/vaadin-addons</url>
+    </repository>
+  </repositories>
+  
 </project>
