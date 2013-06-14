@@ -1,0 +1,7 @@
+@import "bebawebtheme.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in bebawebtheme.scss */
+.bebawebtheme {
+  @include bebawebtheme;
+}
